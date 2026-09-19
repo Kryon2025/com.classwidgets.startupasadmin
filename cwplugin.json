@@ -1,8 +1,7 @@
 {
   "id": "com.classwidgets.startupasadmin",
   "name": "以管理员身份自启动",
-  "version": "1.0.0",
-  "api_version": "~=0.6.0",
+  "version": "1.0.1",  "api_version": "~=0.6.0",
   "entry": "main.py",
   "author": "松峰",
   "description": "通过 Windows 计划任务，让 Class Widgets 2 在登录时以管理员身份自启动。",

@@ -116,6 +116,27 @@ PluginPage {
             }
         }
 
+        // 注册前的绿色提醒：主程序自带的开机自启动必须先关掉，
+        // 否则登录时会同时被主程序和计划任务拉起两次
+        SettingCard {
+            Layout.fillWidth: true
+            title: qsTr("注册前请先关闭主程序的开机自启动")
+            description: qsTr("两者同时开启会导致登录时重复启动。")
+
+            ColumnLayout {
+                Layout.fillWidth: true
+                spacing: 6
+
+                Text {
+                    Layout.fillWidth: true
+                    wrapMode: Text.Wrap
+                    color: "#46CEA3"
+                    font.bold: true
+                    text: qsTr("请关闭主程序的开机自启动后再注册计划任务")
+                }
+            }
+        }
+
         RowLayout {
             spacing: 12
 
