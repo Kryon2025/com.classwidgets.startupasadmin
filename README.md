@@ -1,6 +1,20 @@
-# 以管理员身份自启动 — Class Widgets 2
+<div align="center">
 
-通过 **Windows 计划任务**，让 Class Widgets 2 在你登录 Windows 时**以管理员身份自启动**。
+<img src="icon.png" height="120" alt="以管理员身份自启动">
+<h1>以管理员身份自启动 — Class Widgets 2</h1>
+
+<p>通过 <b>Windows 计划任务</b>，让 Class Widgets 2 在你登录 Windows 时<b>以管理员身份自启动</b>。</p>
+
+[![版本](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-1.0.1-5A9BFF?style=for-the-badge)](https://github.com/Kryon2025/com.classwidgets.startupasadmin/releases)
+[![星标](https://img.shields.io/github/stars/Kryon2025/com.classwidgets.startupasadmin?style=for-the-badge&color=orange&label=%E6%98%9F%E6%A0%87)](https://github.com/Kryon2025/com.classwidgets.startupasadmin)
+[![开源许可](https://img.shields.io/github/license/Kryon2025/com.classwidgets.startupasadmin?style=for-the-badge&label=%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81)](https://github.com/Kryon2025/com.classwidgets.startupasadmin/blob/main/LICENSE)
+[![下载量](https://img.shields.io/github/downloads/Kryon2025/com.classwidgets.startupasadmin/total.svg?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&color=green&style=for-the-badge)](https://github.com/Kryon2025/com.classwidgets.startupasadmin/releases)
+
+</div>
+
+> [!NOTE]
+> 当前版本 **1.0.1**，要求 Class Widgets 2 的插件 API `~=0.6.0`。
+> 在 [插件广场](https://plaza.cw.rinlit.cn/plugins/com.classwidgets.startupasadmin) 可以一键安装/更新，也可以在 Release 页下载 `.cwplugin` 手动导入。
 
 插件本身不含桌面组件，只在设置里增加一个「以管理员身份自启动」页面。
 
