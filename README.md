@@ -13,7 +13,7 @@
 </div>
 
 > [!NOTE]
-> 当前版本 **1.0.1**，要求 Class Widgets 2 的插件 API `~=0.6.0`。
+> 当前版本 **1.0.1**，要求 Class Widgets 2 的插件 API `~=0.7.0`。
 > 在 [插件广场](https://plaza.cw.rinlit.cn/plugins/com.classwidgets.startupasadmin) 可以一键安装/更新，也可以在 Release 页下载 `.cwplugin` 手动导入。
 
 插件本身不含桌面组件，只在设置里增加一个「以管理员身份自启动」页面。
@@ -96,3 +96,13 @@
 ```
 
 本地模块都带插件前缀命名（`startupasadmin_*`），避免与其它插件的同名模块冲突。
+
+
+## SDK 版本
+
+插件适配 Class Widgets 2 SDK **0.7.0**，`cwplugin.json` 中 `api_version` 为 `~=0.7.0`
+（PEP 440 兼容版本号，等价于 `>=0.7.0, <0.8.0`），基于官方 `ClassWidgets.SDK` 接口
+（`CW2Plugin` / `PluginAPI`）。
+
+0.7.0 相对 0.6.0 是纯增量：新增 `globalconfig`（锁/解锁）、`actions`、`schedulemanagement`、
+`application`、`diagnostics` 等接口与 UI 快捷键能力，原有接口无破坏性变更。
