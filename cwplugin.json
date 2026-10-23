@@ -1,7 +1,7 @@
 {
   "id": "com.classwidgets.startupasadmin",
   "name": "以管理员身份自启动",
-  "version": "1.0.3", 
+  "version": "1.0.4", 
   "api_version": "~=0.7.0",
   "entry": "main.py",
   "author": "Kryon,EasonZhou",
